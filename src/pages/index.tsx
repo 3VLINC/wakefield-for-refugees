@@ -1,7 +1,7 @@
 import * as React from "react"
 import Logo from "../images/wfr-logo-colour.jpg"
 import styled from 'styled-components';
-import { Layout } from "./shared/Layout";
+import { Layout } from "../shared/Layout";
 
 const LogoImg = styled.img`
   width: 320px;
