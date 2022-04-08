@@ -6,7 +6,8 @@ const config: GatsbyConfig = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
-    "gatsby-plugin-styled-components"
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-react-helmet"
   ]
 };
 
