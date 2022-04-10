@@ -4,6 +4,7 @@ import { WithTheme } from "../interface";
 import Town from "../images/town2.jpg";
 import { Header } from "./Header";
 import { Button } from "./Button";
+import { Donate } from "./Donate";
 
 const MainDiv = styled.div<WithTheme>(({ theme }) => `
     flex: 1;
@@ -27,6 +28,17 @@ const AboutArea = styled.div<WithTheme>(({ theme }) => `
     
 `);
 
+const ButtonsArea = styled.div<WithTheme>(({ theme }) => `
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+`);
+
+const Button2 = styled(Button)`
+    height: 300px;
+    color: green;
+`;
+
 
 
 export const AboutUs: React.FC = () => {
@@ -40,8 +52,10 @@ export const AboutUs: React.FC = () => {
             <p>Given the devastating refugee crisis in Ukraine, our group has reconvened to see how we can help. Our aim is to support Ukrainian families with a soft landing upon their arrival in our community, by helping them to find housing, work, childcare, and access to healthcare, among other needs.
 
             </p>
-            <p>Get involved today!</p>
-            <Button size="large" href="https://docs.google.com/forms/d/1HAqQgfiklH2XXcCcfyLRsSSveesZKCKUeUevVlqgkeo">Volunteer Signup &rarr;</Button>
+            <ButtonsArea>
+                <Button2 size="large" href="https://docs.google.com/forms/d/1HAqQgfiklH2XXcCcfyLRsSSveesZKCKUeUevVlqgkeo">Volunteer</Button2>
+                <Donate />
+            </ButtonsArea>
         </AboutArea>
     </MainDiv>
 }

@@ -13,7 +13,7 @@ export const ReachUs: React.FC = () => {
     return <MainDiv id="reach-us">
         <Header>Reach Us</Header>
         <p>
-            We can be reached at <a href="mailto:wakefield4refugees@gmail.com">wakefield4refugees@gmail.com</a> or join our <a href="https://facebook.com/groups/wakefield-for-refugees">Facebook Group</a>.
+            We can be reached at <a href="mailto:wakefieldforrefugees@gmail.com">wakefieldforrefugees@gmail.com</a> or join our <a href="https://facebook.com/groups/wakefield-for-refugees">Facebook Group</a>.
         </p>
 
     </MainDiv>
