@@ -14,7 +14,7 @@ export const GetInvolved: React.FC = () => {
         <Header>Get Involved</Header>
         <p>Do you have housing to offer? Can you help drive people to appointments? Want to join one of our committees?</p>
 
-        <p><a href="https://docs.google.com/forms/d/1HAqQgfiklH2XXcCcfyLRsSSveesZKCKUeUevVlqgkeo">Complete our volunteer form</a> to let us know how you can help and we will be in touch.</p>
+        <p><a href="https://forms.gle/E5u9ddp5PjyCBkFAA">Complete our volunteer form</a> to let us know how you can help and we will be in touch.</p>
 
     </MainDiv>
 }

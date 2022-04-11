@@ -48,7 +48,7 @@ export const LatestUpdates: React.FC = () => {
                 April 8th 2022
             </MetaDiv>
             <ContentDiv>
-                We are reaching out to our community members to build a roster of volunteers who can help provide Ukrainians with a soft landing when they arrive in our community. We are looking for people who can provide temporary and long-term housing, childcare, transportation, translation, among other needs. If you are able to help please <a href="https://docs.google.com/forms/d/1HAqQgfiklH2XXcCcfyLRsSSveesZKCKUeUevVlqgkeo">complete our volunteer form</a>.
+                We are reaching out to our community members to build a roster of volunteers who can help provide Ukrainians with a soft landing when they arrive in our community. We are looking for people who can provide temporary and long-term housing, childcare, transportation, translation, among other needs. If you are able to help please <a href="https://forms.gle/E5u9ddp5PjyCBkFAA">complete our volunteer form</a>.
             </ContentDiv>
         </EntryDiv>
         <EntryDiv>
