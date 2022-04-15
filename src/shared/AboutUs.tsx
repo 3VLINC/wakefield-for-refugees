@@ -4,7 +4,6 @@ import { WithTheme } from "../interface";
 import Town from "../images/town2.jpg";
 import { Header } from "./Header";
 import { Button } from "./Button";
-import { Donate } from "./Donate";
 
 const MainDiv = styled.div<WithTheme>(({ theme }) => `
     flex: 1;
@@ -14,17 +13,25 @@ const MainDiv = styled.div<WithTheme>(({ theme }) => `
     justify-content: flex-start;
     color: #FFF;
     background: url(${Town}) center center no-repeat;
-    padding:40px;
+    padding;0;
+    @media (min-width: 480px) {
+        padding: 40px;
+    }
+    @media (min-width: 720px) {
+        padding:40px;
+    }
 `);
 
 const AboutArea = styled.div<WithTheme>(({ theme }) => `
     flex-basis: 100%;
+    padding: 20px;
+    @media (min-width: 480px) {
+        padding: 40px;
+    }
     @media (min-width: 720px) {
         max-width: 480px;
-
     }
     background-color: ${theme.primaryColor};
-    padding: 40px;
     
 `);
 
@@ -34,10 +41,15 @@ const ButtonsArea = styled.div<WithTheme>(({ theme }) => `
     align-items: center;  
 `);
 
-const Button2 = styled(Button)`
+const ButtonContainer = styled.div`
+margin-right:10px;`;
+
+const Button2 = styled(Button)(() => `
     height: 300px;
     color: green;
-`;
+    margin-right: 10px !important;
+    color: 'blue';
+`);
 
 
 
@@ -53,8 +65,12 @@ export const AboutUs: React.FC = () => {
 
             </p>
             <ButtonsArea>
-                <Button2 size="large" href="https://forms.gle/E5u9ddp5PjyCBkFAA">Volunteer</Button2>
-                <Donate />
+                <ButtonContainer>
+                    <Button2 size="large" href="https://forms.gle/E5u9ddp5PjyCBkFAA">Volunteer</Button2>
+                </ButtonContainer>
+                <div>
+                    <Button2 size="large" href="#donate">Donate</Button2>
+                </div>
             </ButtonsArea>
         </AboutArea>
     </MainDiv>

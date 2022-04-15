@@ -2,6 +2,7 @@ import * as React from "react"
 import styled from 'styled-components';
 import { AboutUs } from "../shared/AboutUs";
 import { AboutWakefield } from "../shared/AboutWakefield";
+import { Donate } from "../shared/Donate";
 import { GetInvolved } from "../shared/GetInvolved";
 import { LatestUpdates } from "../shared/LatestUpdates";
 import { Layout } from "../shared/Layout/Layout";
@@ -24,6 +25,7 @@ const IndexPage: React.FC = () => {
       <LatestUpdates />
       <ReachUs />
       <GetInvolved />
+      <Donate />
       <AboutWakefield />
 
     </Layout>

@@ -1,7 +1,6 @@
 import * as React from "react"
 import styled from 'styled-components';
 import { WithTheme } from "../interface";
-import Town from "../images/town.jpg";
 
 const MainDiv = styled.div<WithTheme>(({ theme }) => `
     flex: 1;
