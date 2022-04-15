@@ -13,19 +13,19 @@ const LogoImg = styled.img`
 `;
 
 const MainDiv = styled.main`
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  max-width:1024px;
 `
 
 const IndexPage: React.FC = () => {
   return (
     <Layout>
       <AboutUs />
-      <LatestUpdates />
-      <ReachUs />
-      <GetInvolved />
-      <Donate />
+      <MainDiv>
+        <LatestUpdates />
+        <ReachUs />
+        <GetInvolved />
+        <Donate />
+      </MainDiv>
       <AboutWakefield />
 
     </Layout>

@@ -42,10 +42,24 @@ export const LatestUpdates: React.FC = () => {
         <Header>Latest Updates</Header>
         <EntryDiv>
             <TitleDiv>
+                "My Thoughts are Silent" presented by Cinema Wakefield, April 24th
+            </TitleDiv>
+            <MetaDiv>
+                Posted April 15th 2022
+            </MetaDiv>
+            <ContentDiv>
+                Cinema Wakefield will be screening "My Thoughts Are Silent" on April 24th at 4pm, a Ukrainian comedy-drama about an awkward young sound engineer attempting to record the song of a rare mallard as a means of securing a job in Canada. All proceeds are going to support The Canada Ukraine Foundation &amp; Wakefield for Refugees. Tickets are $13 in advance or $15 at the door. <a href="https://centrewakefieldlapeche.ca/event-4770399">Get your tickets today</a>
+
+
+
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
                 Volunteer Outreach
             </TitleDiv>
             <MetaDiv>
-                April 8th 2022
+                Posted April 8th 2022
             </MetaDiv>
             <ContentDiv>
                 We are reaching out to our community members to build a roster of volunteers who can help provide Ukrainians with a soft landing when they arrive in our community. We are looking for people who can provide temporary and long-term housing, childcare, transportation, translation, among other needs. If you are able to help please <a href="https://forms.gle/E5u9ddp5PjyCBkFAA">complete our volunteer form</a>.
@@ -56,7 +70,7 @@ export const LatestUpdates: React.FC = () => {
                 Ukrainian Outreach
             </TitleDiv>
             <MetaDiv>
-                April 2nd 2022
+                Posted April 2nd 2022
             </MetaDiv>
             <MetaDiv>
             </MetaDiv>
