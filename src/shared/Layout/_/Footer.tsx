@@ -10,13 +10,19 @@ const MainDiv = styled.div<WithTheme>(({ theme }) => `
    padding: 80px 40px;
    color: ${theme.lightFont};
    text-align: left;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: space-between;
+   @media (min-width:480px) {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+   }
 `);
 const Section = styled.div<WithTheme>(() => `
     flex: 0;
+    margin-bottom: 20px;
+    @media (min-width:480px) {
+        margin-bottom: 0px;
+    }
 `);
 
 const Item = styled.div<WithTheme>(() => `

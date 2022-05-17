@@ -18,7 +18,10 @@ const MainDiv = styled.div<WithTheme>(({ theme }) => `
 const LogoImgA = styled.a<WithTheme>(({ theme }) => `
   margin:0;
   padding:0;
-  height: 140px;
+  height: 100px;
+  @media (min-width:480px) {
+      height: 140px;
+  }
   padding: 20px;
   width: auto;
   display: block;
