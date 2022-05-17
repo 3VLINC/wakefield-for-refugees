@@ -17,9 +17,8 @@ const MenuArea = styled.ul`
 const MenuItem = styled.li`
     flex: 0;
     flex-basis: 100%;
-    /* text-align: right; */
-    @media (min-width: 480px) {
-        text-align: right;
+    text-align: right;
+    @media (min-width: 720px) {
         flex: 1;
         flex-basis: auto;
     }
@@ -44,9 +43,6 @@ const MenuItemHighlight = styled.a`
     font-size: 1.2rem;
     white-space: nowrap;
     display: block;
-    @media (min-width: 480px) {
-        
-    }
 `;
 
 
