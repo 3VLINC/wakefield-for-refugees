@@ -1,23 +1,26 @@
 import { PageProps } from "gatsby";
 import * as React from "react"
 import styled from 'styled-components';
-import { AboutUs } from "../shared/AboutUs";
-import { LatestUpdates } from "../shared/LatestUpdates";
+import { GetInvolved } from "../shared/GetInvolved";
 import { Layout } from "../shared/Layout/Layout";
+
+const LogoImg = styled.img`
+  width: 320px;
+`;
 
 const MainDiv = styled.main`
   max-width:1024px;
 `
 
-const IndexPage: React.FC<PageProps> = ({ path }) => {
+const GetInvolvedPage: React.FC<PageProps> = ({ path }) => {
   return (
     <Layout path={path}>
-      <AboutUs />
       <MainDiv>
-        <LatestUpdates />
+        <GetInvolved />
       </MainDiv>
+
     </Layout>
   )
 }
 
-export default IndexPage
+export default GetInvolvedPage

@@ -10,3 +10,5 @@ export interface Theme {
 }
 
 export interface WithTheme { theme: Theme };
+
+export type Page = '/about-us/' | '/about-wakefield/' | '/donate/' | '/get-involved/' | '/reach-us/' | '/home/';

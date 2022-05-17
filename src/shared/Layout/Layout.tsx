@@ -3,6 +3,7 @@ import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { Header } from './_/Header/Header';
 import { Helmet } from 'react-helmet';
 import { Theme } from '../../interface';
+import { Footer } from './_/Footer';
 
 const theme: Theme = ({
     primaryColor: '#ce2121',
@@ -19,6 +20,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin:0;
     text-align: left;
+    background-color: #281529;
 }
 
 a {
@@ -30,27 +32,33 @@ p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
 }
+ul {
+    padding: 0;
+}
+ul li {
+    margin-bottom: 1.0rem;
+    list-style-position: inside;
+}
 `;
 
 const ContentArea = styled.div`
     text-align: left;
+    background-color: #FFFFFF;
 `;
 
-export const Layout: React.FC = ({ children }) => {
+export const Layout: React.FC<{ path: string }> = ({ children, path }) => {
 
     return (<>
         <Helmet>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet" />
             <title>Wakefield for Refugees</title>
         </Helmet>
         <GlobalStyle />
         <ThemeProvider theme={theme}>
-            <Header />
+            <Header path={path} />
             <ContentArea>
                 {children}
             </ContentArea>
+            <Footer />
         </ThemeProvider>
     </>)
 

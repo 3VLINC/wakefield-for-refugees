@@ -1,5 +1,4 @@
 import * as React from "react"
-
 import styled from 'styled-components';
 
 
@@ -16,12 +15,12 @@ const MenuArea = styled.ul`
 `;
 
 const MenuItem = styled.li`
-    flex: 1;
+    flex: 0;
     flex-basis: 100%;
-    text-align: right;
+    /* text-align: right; */
     @media (min-width: 480px) {
-        text-align: center;
-        flex: 0;
+        text-align: right;
+        flex: 1;
         flex-basis: auto;
     }
 `;
@@ -32,28 +31,33 @@ const MenuItemLink = styled.a`
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     white-space: nowrap;
+    font-weight: normal;
     display: block;
+    opacity: 0.5;
 `;
 
 const MenuItemHighlight = styled.a`
     color: #FFF;
     padding: 10px;
+    opacity: 1;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     white-space: nowrap;
     display: block;
     @media (min-width: 480px) {
-        background-color: #a8e7e5;
-        border-radius: 8px;
+        
     }
-
 `;
 
-export const Menu: React.FC = () => {
+
+export const Menu: React.FC<{ path: string }> = ({ path: currentPath }) => {
+
+    const IsActiveLink: React.FC<{ path: string }> = ({ path, children }) => path === currentPath ? <MenuItemHighlight href={path} children={children} /> : <MenuItemLink href={path} children={children} />;
+
     return <MenuArea>
-        <MenuItem><MenuItemLink href="#latest-updates">Updates</MenuItemLink></MenuItem>
-        <MenuItem><MenuItemLink href="#reach-us">Reach Us</MenuItemLink></MenuItem>
-        <MenuItem><MenuItemLink href="#get-involved">Get Involved</MenuItemLink></MenuItem>
-        <MenuItem><MenuItemHighlight href="#donate">Donate</MenuItemHighlight></MenuItem>
+        <MenuItem><IsActiveLink path="/">Home</IsActiveLink></MenuItem>
+        <MenuItem><IsActiveLink path="/get-involved/">Get Involved</IsActiveLink></MenuItem>
+        <MenuItem><IsActiveLink path="/about-wakefield/">About Wakefield</IsActiveLink></MenuItem>
+        <MenuItem><IsActiveLink path="/donate/">Donate</IsActiveLink></MenuItem>
     </MenuArea>
 }

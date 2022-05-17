@@ -5,7 +5,7 @@ const CTA = styled.a<WithTheme & { size: 'small' | 'large' }>(({ theme, size }) 
     background-color: ${theme.tertiaryColor};
     padding: ${(size === 'small') ? 16 : 24}px;
     font-size: ${(size === 'small') ? 16 : 24}px;
-    border-radius: 8px;
+    border-radius: 24px;
     color: ${theme.darkColor};
     white-space: nowrap;
     display: block;

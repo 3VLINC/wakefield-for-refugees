@@ -1,7 +1,7 @@
 import * as React from "react"
 import styled from 'styled-components';
 import { WithTheme } from "../interface";
-import { Header } from "./Header";
+import { Header1 } from "./Header1";
 
 const MainDiv = styled.div<WithTheme>(({ theme }) => `
     color: ${theme.darkFont};
@@ -39,7 +39,7 @@ const ContentDiv = styled.div<WithTheme>(({ theme }) => `
 export const LatestUpdates: React.FC = () => {
 
     return <MainDiv id="latest-updates">
-        <Header>Latest Updates</Header>
+        <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
                 "My Thoughts are Silent" presented by Cinema Wakefield, April 24th

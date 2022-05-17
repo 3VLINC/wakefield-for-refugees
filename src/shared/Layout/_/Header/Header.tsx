@@ -30,10 +30,10 @@ const LogoImg = styled.img<WithTheme>(({ theme }) => `
 `);
 
 
-export const Header: React.FC = () => {
+export const Header: React.FC<{ path: string }> = ({ path }) => {
 
     return <MainDiv>
-        <LogoImgA href="#"><LogoImg src={Logo} alt="Wakefield for Refugees" /></LogoImgA>
-        <Menu />
+        <LogoImgA href="/"><LogoImg src={Logo} alt="Wakefield for Refugees" /></LogoImgA>
+        <Menu path={path} />
     </MainDiv>
 }
