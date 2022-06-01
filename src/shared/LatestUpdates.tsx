@@ -42,6 +42,17 @@ export const LatestUpdates: React.FC = () => {
         <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
+                MRC des Collines to provide free criminal background checks to families hosting Ukrainian refugees
+            </TitleDiv>
+            <MetaDiv>
+                Posted May 31 2022
+            </MetaDiv>
+            <ContentDiv>
+                Any MRC des Collines resident can get the criminal records check free of charge. Address your request to <a href="mailto:verificationspolicieres@mrcdescollines.com">MRC des Collines-de-l’Outaouais</a>, 216 Chemin Old Chelsea, Chelsea, Quebec J9B 1J4 and indicate that you are planning to be a host family for Ukrainian displaced people in this region. <a href="mailto:wakefieldforrefugees@gmail.com">Contact us</a> for a sample letter.
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
                 "My Thoughts are Silent" presented by Cinema Wakefield, April 24th
             </TitleDiv>
             <MetaDiv>
