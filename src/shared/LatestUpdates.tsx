@@ -48,7 +48,7 @@ export const LatestUpdates: React.FC = () => {
                 Posted May 31 2022
             </MetaDiv>
             <ContentDiv>
-                Any MRC des Collines resident can get the criminal records check free of charge. Address your request to <a href="mailto:verificationspolicieres@mrcdescollines.com">MRC des Collines-de-l’Outaouais</a>, 216 Chemin Old Chelsea, Chelsea, Quebec J9B 1J4 and indicate that you are planning to be a host family for Ukrainian displaced people in this region. <a href="mailto:wakefieldforrefugees@gmail.com">Contact us</a> for a sample letter.
+                Any MRC des Collines resident can get the criminal records check free of charge. Address your request to <a href="mailto:verificationspolicieres@mrcdescollines.com">MRC des Collines-de-l’Outaouais</a>, 216 Chemin Old Chelsea, Chelsea, Quebec J9B 1J4 and indicate that you are planning to be a host family for Ukrainian displaced people in this region. Download our <a href="https://docs.google.com/document/d/1bpOpFW9zpKBU-JPb8ppUhnAukh4WdX_Wxkoij2M57Lo/edit?usp=sharing">sample form letter</a> here.
             </ContentDiv>
         </EntryDiv>
         <EntryDiv>
