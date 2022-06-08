@@ -4,7 +4,7 @@ import { Header } from './_/Header/Header';
 import { Helmet } from 'react-helmet';
 import { Theme } from '../../interface';
 import { Footer } from './_/Footer';
-
+import CoverPhoto from "../../images/cover-photo.jpeg";
 const theme: Theme = ({
     primaryColor: '#ce2121',
     secondaryColor: '#45c8c4',
@@ -32,10 +32,10 @@ p {
     line-height: 1.5rem;
     margin-bottom: 1.5rem;
 }
-ul {
+ul, ol {
     padding: 0;
 }
-ul li {
+ul li, ol li {
     margin-bottom: 1.0rem;
     list-style-position: inside;
 }
@@ -51,6 +51,11 @@ export const Layout: React.FC<{ path: string }> = ({ children, path }) => {
     return (<>
         <Helmet>
             <title>Wakefield for Refugees</title>
+            <meta property="og:url" content="https://wfr-wpr.ca" />
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="Wakefield for Refugees" />
+            <meta property="og:description" content="Wakefield for Refugees is a group of community members based in and around Wakefield (Québec) Canada involved in sponsoring and resettling refugees to Canada." />
+            <meta property="og:image" content={CoverPhoto} />
         </Helmet>
         <GlobalStyle />
         <ThemeProvider theme={theme}>

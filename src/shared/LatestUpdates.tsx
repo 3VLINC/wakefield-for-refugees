@@ -42,6 +42,17 @@ export const LatestUpdates: React.FC = () => {
         <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
+                Use your Air Miles cash to donate an IGA or Jean Coutu gift card to a landed Ukrainian family.
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 7 2022
+            </MetaDiv>
+            <ContentDiv>
+                You can now donate an IGA or Jean Coutu gift card purchased with your spare Air Miles cash to a Ukranian family. We've got step by step instructions you can follow on our <a href="/donate">donate</a> page.
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
                 MRC des Collines to provide free criminal background checks to families hosting Ukrainian refugees
             </TitleDiv>
             <MetaDiv>
