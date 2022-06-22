@@ -42,6 +42,18 @@ export const LatestUpdates: React.FC = () => {
         <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
+                Wakefield Grannies Perennials Sale in Support of Ukraine Refugees
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 21 2022
+            </MetaDiv>
+            <ContentDiv>
+                The Wakefield Grannies are back with a new selection of perennial plants. 50% of the plant sales will be given to Wakefield For Refugees. You can purchase your plants at the <a href="https://goo.gl/maps/FjMcK2iNiErb2gqH7">Magasin Général de La Pêche</a> on Thursday June 23rd from 10 to 4
+ or Friday June 24th from 10 to 4. Cash preferred. Thank you to our faithful customers and to David and Becky for letting us invade their parking lot and for making the best breakfast and lunch sandwiches. Happy gardening!
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
                 Use your Air Miles cash to donate an IGA or Jean Coutu gift card to a landed Ukrainian family.
             </TitleDiv>
             <MetaDiv>
