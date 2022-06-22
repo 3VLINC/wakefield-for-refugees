@@ -2,6 +2,9 @@ import * as React from "react"
 import styled from 'styled-components';
 import { WithTheme } from "../interface";
 import { Header1 } from "./Header1";
+import OlhaVitalii from '../images/family-olha-vitalii.jpg';
+import VladLarisa from '../images/family-vlad-larisa.jpg';
+import { FeatureImg } from "./FeatureImg";
 
 const MainDiv = styled.div<WithTheme>(({ theme }) => `
     color: ${theme.darkFont};
@@ -35,14 +38,13 @@ const ContentDiv = styled.div<WithTheme>(({ theme }) => `
 `);
 
 
-
 export const LatestUpdates: React.FC = () => {
 
     return <MainDiv id="latest-updates">
         <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
-                Wakefield Grannies Perennials Sale in Support of Ukraine Refugees
+                Wakefield Grannies perennials sale in support of Ukraine refugees
             </TitleDiv>
             <MetaDiv>
                 Posted June 21 2022
@@ -51,6 +53,30 @@ export const LatestUpdates: React.FC = () => {
                 The Wakefield Grannies are back with a new selection of perennial plants. 50% of the plant sales will be given to Wakefield For Refugees. You can purchase your plants at the <a href="https://goo.gl/maps/FjMcK2iNiErb2gqH7">Magasin Général de La Pêche</a> on Thursday June 23rd from 10 to 4
  or Friday June 24th from 10 to 4. Cash preferred. Thank you to our faithful customers and to David and Becky for letting us invade their parking lot and for making the best breakfast and lunch sandwiches. Happy gardening!
             </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
+                New family in our community: Meet Vlad and Larisa
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 21 2022
+            </MetaDiv>
+            <ContentDiv>
+            Vlad Ermilov and his mom, Larisa, arrived in May from Kharkiv, the second-largest city in Ukraine. Before the war, Larisa worked as a nurse and Vlad was completing his Master’s in economics. Now, they are learning to bake bread and make donuts as Wakefield Bakery’s newest staff. Wakefield is certainly an adjustment from city life but they are starting to feel more at home, with lots of support from two local host families and our volunteers. They say they have been enjoying Wakefield’s clean air, wildlife, good roads (!) and friendly people. If you see them around, give them a big hearty Wakefield welcome. 
+            </ContentDiv>
+            <FeatureImg src={VladLarisa} />
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
+                New family in our community: Olha and Vitalii
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 21 2022
+            </MetaDiv>
+            <ContentDiv>
+                Another new Ukrainian family in the Hills! Vitalii and his mother Olha Borsyiuk, from the city of Novovolynsk, have moved in with a host family in Chelsea. Olha – a kindergarten teacher for the past 30 years – has been avidly gardening and enjoying fresh eggs from her host’s 5 chickens! Vitalii continues his studies online to complete his degree in Applied Computer Science. The biggest advantage of Chelsea, they said, has been the incredible support from their host family and the local community. Host Peggy Campbell, says the experience has been very lovely for her and her husband, David Woods. She enjoys having Olha’s help taming the garden, Vitalii’s skill with their computers, and exchanging culinary dishes.
+            </ContentDiv>
+            <FeatureImg src={OlhaVitalii} />
         </EntryDiv>
         <EntryDiv>
             <TitleDiv>
