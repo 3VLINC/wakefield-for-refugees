@@ -44,6 +44,28 @@ export const LatestUpdates: React.FC = () => {
         <Header1>Latest Updates</Header1>
         <EntryDiv>
             <TitleDiv>
+                Woods-Logue Memorial Golf Tournament – July  9th
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 28 2022
+            </MetaDiv>
+            <ContentDiv>
+                The Woods-Logue Fundraiser Golf Tournament is great fun for a great cause. Thay have raised thousands for various organizations in Wakefield / La Peche: Quail House, Trails, WCC, WCEF and many more! This year they are supporting Wakefield for Refugees. Funds will go to Ukraine and Ukrainian Refugees right here in Wakefield. <a href="https://golfmontcascades.golfems2.com/event/woods-logue-memorial-tournament">Register here</a> for the dinner, to play or to sponsor the event today!
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
+                WFR at the Wakefield market
+            </TitleDiv>
+            <MetaDiv>
+                Posted June 28 2022
+            </MetaDiv>
+            <ContentDiv>
+                This summer you will be able to find us at the <a href="http://www.marchewakefieldmarket.ca/">Wakefield Market</a>. Come by and say hello to learn more about what we do and how you can help.
+            </ContentDiv>
+        </EntryDiv>
+        <EntryDiv>
+            <TitleDiv>
                 Wakefield Grannies perennials sale in support of Ukraine refugees
             </TitleDiv>
             <MetaDiv>
