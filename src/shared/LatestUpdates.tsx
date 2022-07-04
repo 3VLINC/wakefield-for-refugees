@@ -50,7 +50,7 @@ export const LatestUpdates: React.FC = () => {
                 Posted June 28 2022
             </MetaDiv>
             <ContentDiv>
-                The Woods-Logue Fundraiser Golf Tournament is great fun for a great cause. Thay have raised thousands for various organizations in Wakefield / La Peche: Quail House, Trails, WCC, WCEF and many more! This year they are supporting Wakefield for Refugees. Funds will go to Ukraine and Ukrainian Refugees right here in Wakefield. <a href="https://golfmontcascades.golfems2.com/event/woods-logue-memorial-tournament">Register here</a> for the dinner, to play or to sponsor the event today!
+                The Woods-Logue Fundraiser Golf Tournament is great fun for a great cause. They have raised thousands for various organizations in Wakefield / La Peche: Quail House, Trails, WCC, WCEF and many more! This year they are supporting Wakefield for Refugees. Funds will go to Ukraine and Ukrainian Refugees right here in Wakefield. <a href="https://golfmontcascades.golfems2.com/event/woods-logue-memorial-tournament">Register here</a> for the dinner, to play or to sponsor the event today!
             </ContentDiv>
         </EntryDiv>
         <EntryDiv>
