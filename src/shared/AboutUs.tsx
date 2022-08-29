@@ -59,7 +59,7 @@ export const AboutUs: React.FC = () => {
             </p>
             <ButtonsArea>
                 <ButtonContainer>
-                    <Button2 size="large" href="https://forms.gle/E5u9ddp5PjyCBkFAA">Volunteer</Button2>
+                    <Button2 size="large" href="/get-involved">Volunteer</Button2>
                 </ButtonContainer>
                 <div>
                     <Button2 size="large" href="/donate">Donate</Button2>
