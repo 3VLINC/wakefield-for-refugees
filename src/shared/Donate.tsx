@@ -37,7 +37,21 @@ export const Donate: React.FC = () => {
             <li>Choose the option to gift the card to someone else and enter wakefieldforrefugees@gmail.com as the recipient email. (You can use WFR as the first and last name.)</li>
         </ol>
         <p>WFR will distribute cards to Ukrainian families to assist them during their transition to life in Wakefield.</p>
-        
+        <Header2>Items</Header2>
+        <p>WFR accepts donations of furniture and other household items that are in good condition.</p>
+        <p>We are not able to pick up items, but can accept items that are dropped off at our storage location in Wakefield.</p>
+        <p>Some items we accept include:</p>
+        <ul>
+            <li>Beds and bedding</li>
+            <li>Sofas and loveseats</li>
+            <li>Lamps</li>
+            <li>Kitchen utensils and appliances</li>
+            <li>Clothing (such as winter jackets)</li>
+            <li>Small functioning electronics (televisions, computer monitors etc...)</li>
+        </ul>
+        <p>Please note that large items are not accepted during the winter months as the driveway to the storage area is not plowed.</p>
+        <p>You can <a href="wakefieldforrefugees@gmail.com">contact us by email</a> to co-ordinate drop off.</p>
+        <p>Please be aware that items deemed unsuitable will not be accepted.</p>
     </MainDiv>
 }
 
