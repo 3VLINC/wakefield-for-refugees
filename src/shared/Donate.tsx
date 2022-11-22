@@ -42,12 +42,15 @@ export const Donate: React.FC = () => {
         <p>We are not able to pick up items, but can accept items that are dropped off at our storage location in Wakefield.</p>
         <p>Some items we accept include:</p>
         <ul>
-            <li>Beds and bedding</li>
+            <li>Beds, pillows and bedding</li>
+            <li>Rugs</li>
             <li>Sofas and loveseats</li>
+            <li>Tables and Chairs</li>
+            <li>Dishes and Utensils</li>
+            <li>Kitchen appliances (microwaves, toaster ovens, blenders)</li>
             <li>Lamps</li>
-            <li>Kitchen utensils and appliances</li>
-            <li>Clothing (such as winter jackets)</li>
-            <li>Small functioning electronics (televisions, computer monitors etc...)</li>
+            <li>Televisions</li>
+            <li>Electric stoves and dryers (but no washing machines, gas dryers or fridges)</li>
         </ul>
         <p>Please note that large items are not accepted during the winter months as the driveway to the storage area is not plowed.</p>
         <p>You can <a href="wakefieldforrefugees@gmail.com">contact us by email</a> to co-ordinate drop off.</p>
